@@ -7,5 +7,17 @@ function kiemtra() {
         if (password == "TheMaster") {
             alert("Welcome")
         }
+        else if (password == "") {
+            alert("Canceled")
+        }
+        else {
+            alert("Wrong password")
+        }
+    }
+    else if (username == "") {
+        alert("Canceled")
+    }
+    else {
+        alert("I don't know you!")
     }
 }
